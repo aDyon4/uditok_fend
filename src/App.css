@@ -1,0 +1,49 @@
+.app{
+  width: 60%;
+  margin: auto;
+}
+
+.link {
+  background-color: orangered;
+  color: white;
+  padding: 7px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+
+.uditok {
+  background-color: white;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.kartya {
+  display: block;
+  box-shadow: 0px 0px 10px black;
+  width: fit-content;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 5px;
+}
+.kartya {
+  text-align: center;
+}
+
+.gatya{
+  background-color: white;
+  margin: 5px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#torol {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
+}
+#torol:hover { color: red }
